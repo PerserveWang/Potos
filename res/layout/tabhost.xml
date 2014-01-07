@@ -3,7 +3,7 @@
     android:id="@android:id/tabhost"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" 
-    android:background="@color/white">
+    android:background="@color/bacgroud">
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -13,7 +13,7 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/bac_title"
+            android:background="@drawable/tab_title"
 			>
 
             <Button
@@ -46,7 +46,8 @@
             android:id="@android:id/tabcontent"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:padding="5dp" />
+            android:padding="5dp"
+            android:background="@color/bacgroud" />
     </LinearLayout>
 
 </TabHost>

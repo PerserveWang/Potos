@@ -10,17 +10,18 @@ import android.os.Handler;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class WelcomeActivity extends Activity {
 
-	private ImageView imgIcon;
+	private TextView imgIcon;
 	private ImageView appName;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.welcome);
-		imgIcon = (ImageView) findViewById(R.id.imgIcon);
+		imgIcon = (TextView) findViewById(R.id.imgIcon);
 		appName = (ImageView) findViewById(R.id.appName);
 		((MyApplicationInfo) getApplication()).setColumn(CommonPath.SINGLE_COLUMN);
 		Animation mAnimation;

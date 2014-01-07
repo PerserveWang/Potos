@@ -4,16 +4,16 @@
     android:layout_height="fill_parent"
     android:background="@drawable/welcome_bac" >
 
-    <ImageView
+    <TextView
         android:id="@+id/imgIcon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_marginBottom="110dp"
-        android:background="@drawable/username_img"
+        android:layout_marginBottom="310dp"
         android:textColor="#ee6801"
-        android:textSize="25dip" />
+        android:text="快乐的乐乐"
+        android:textSize="36sp" />
 
     <ImageView
         android:id="@+id/appName"

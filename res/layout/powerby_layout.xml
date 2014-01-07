@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/powerby_bg_color" >
+    android:background="@color/bacgroud" >
       <RelativeLayout
         android:id="@+id/powerby_title"
         android:layout_width="fill_parent"
@@ -37,7 +37,7 @@
         android:layout_marginRight="25dp"
         android:layout_marginTop="20dp"
         android:text="@string/introduce"
-        android:textColor="@color/powerby_text_color"
+        android:textColor="@color/about_color"
         android:textSize="18sp" />
 
     <TextView
@@ -48,7 +48,7 @@
         android:layout_below="@+id/introduce"
         android:layout_marginTop="10dp"
         android:text="@string/advantage"
-        android:textColor="@color/powerby_text_color"
+        android:textColor="@color/about_color"
         android:textSize="18sp" />
 
     <LinearLayout
@@ -68,7 +68,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:text="@string/advantage1"
-            android:textColor="@color/powerby_text_color"
+            android:textColor="@color/about_color"
             android:textSize="16sp" />
 
         <TextView
@@ -77,7 +77,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:text="@string/advantage2"
-            android:textColor="@color/powerby_text_color"
+            android:textColor="@color/about_color"
             android:textSize="16sp" />
 
         <TextView
@@ -86,7 +86,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:text="@string/advantage3"
-            android:textColor="@color/powerby_text_color"
+            android:textColor="@color/about_color"
             android:textSize="16sp" />
 
         <TextView
@@ -95,7 +95,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:text="@string/advantage4"
-            android:textColor="@color/powerby_text_color"
+            android:textColor="@color/about_color"
             android:textSize="16sp" />
 
         <TextView
@@ -104,7 +104,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:text="@string/advantage5"
-            android:textColor="@color/powerby_text_color"
+            android:textColor="@color/about_color"
             android:textSize="16sp" />
     </LinearLayout>
 
@@ -116,7 +116,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="70dp"
         android:text="@string/panker_name"
-        android:textColor="@color/powerby_text_color"
+        android:textColor="@color/about_color"
         android:textSize="18sp" />
 
     <TextView
@@ -127,7 +127,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:text="@string/panker_web"
-        android:textColor="@color/homepage_type_text_bg"
+        android:textColor="@color/panker_color"
         android:textSize="18sp" />
 
 </RelativeLayout>

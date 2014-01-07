@@ -2,6 +2,5 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:drawable="@drawable/tab_series" android:state_selected="true"/>
-    <item android:drawable="@drawable/white" android:state_selected="false"/>
 
 </selector>

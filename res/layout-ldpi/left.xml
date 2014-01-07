@@ -3,19 +3,19 @@
     android:id="@+id/mlist"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#000000" >
+    android:background="@color/bacgroud" >
 
     <RelativeLayout
         android:layout_width="256px"
         android:layout_height="wrap_content"
-        android:background="#000000"
+        android:background="@color/bacgroud"
         android:orientation="vertical" >
 
         <RelativeLayout
             android:id="@+id/left_R"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:background="#000000"
+            android:background="@drawable/bac_title"
             android:padding="10dip" >
 
             <TextView
@@ -24,7 +24,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:text="@string/shop"
-                android:textColor="#ecc55c"
+                android:textColor="@color/white"
                 android:textSize="20sp" />
         </RelativeLayout>
 
@@ -36,7 +36,7 @@
             android:layout_marginRight="3dip"
             android:layout_marginTop="3dip"
             android:layout_below="@id/left_R"
-            android:background="#000000"
+            android:background="@color/bacgroud"
             android:orientation="horizontal" >
 
             <ImageButton
@@ -64,7 +64,7 @@
             android:layout_marginLeft="3dip"
             android:layout_marginRight="3dip"
             android:layout_marginTop="3dip"
-            android:background="#000000"
+            android:background="@color/bacgroud"
             android:layout_below="@id/left_L"
             android:orientation="horizontal" >
 
@@ -93,7 +93,7 @@
             android:layout_marginLeft="3dip"
             android:layout_marginRight="3dip"
             android:layout_marginTop="3dip"
-            android:background="#000000"
+            android:background="@color/bacgroud"
             android:layout_below="@id/left_L1"
             android:orientation="horizontal" >
 
@@ -128,6 +128,7 @@
                   android:layout_height="wrap_content"
                   android:layout_alignParentBottom="true"
                   android:text="@string/power"
+                  android:textColor="@color/panker_color"
                   android:textSize="8pt" />
 
               <TextView
@@ -137,7 +138,7 @@
                   android:layout_marginLeft="10dip"
                   android:layout_toRightOf="@id/power"
                   android:text="@string/panker"
-                  android:textColor="#ecc55c"
+                  android:textColor="@color/about_color"
                   android:textSize="10pt" />
           </RelativeLayout>
 

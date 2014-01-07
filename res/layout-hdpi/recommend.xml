@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/recommend_bac" >
+    android:background="@color/bacgroud" >
 
     <RelativeLayout
         android:id="@+id/recommend_R"
@@ -43,7 +43,7 @@
 	    android:layout_below="@id/recommend_R"
 	    android:text="@string/recommend_recommend"
 	    android:textSize="18sp"
-	    android:layout_marginTop="17dip"
+	    android:layout_marginTop="19dip"
 	    android:layout_marginLeft="30dip"
 	    android:layout_marginRight="30dip"
 	    android:textColor="@color/white"
@@ -76,7 +76,7 @@
             android:layout_toLeftOf="@id/recommend_img"
             android:text="@string/yiyou" 
             android:textSize="24sp"
-            android:textColor="@color/white"/>
+            android:textColor="@color/about_color"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -85,7 +85,7 @@
             android:layout_toRightOf="@id/recommend_img"
             android:text="@string/personrecommend" 
             android:textSize="24sp"
-            android:textColor="@color/white"/>
+            android:textColor="@color/about_color"/>
     </RelativeLayout>
 	<RelativeLayout 
 	    android:id="@+id/recommend_user"
@@ -118,7 +118,7 @@
 	        android:layout_centerVertical="true"
 	        android:layout_toLeftOf="@+id/recommend_name"
 	        android:text="@string/recommend_name"
-	        android:textColor="@color/white"
+	        android:textColor="@color/about_color"
 	        android:textSize="18sp" />
 
 	    <TextView
@@ -127,7 +127,7 @@
 	        android:layout_centerVertical="true"
 	        android:layout_toRightOf="@+id/recommend_name"
 	        android:text="@string/recommend_sex"
-	        android:textColor="@color/white"
+	        android:textColor="@color/about_color"
 	        android:textSize="16sp" />
 
 	</RelativeLayout>
@@ -164,7 +164,7 @@
 	        android:layout_toLeftOf="@+id/recommend_telphone"
 	        android:text="@string/recommend_telphone"
 	        android:textSize="18sp"
-	        android:textColor="@color/white" />
+	        android:textColor="@color/about_color" />
 
 	</RelativeLayout>
 		<RelativeLayout 
@@ -215,7 +215,7 @@
 	        android:layout_toLeftOf="@+id/recommend_type"
 	        android:text="@string/recommend_type"
 	        android:textSize="18sp"
-	        android:textColor="@color/white"
+	        android:textColor="@color/about_color"
 	         />
 
 	</RelativeLayout>
