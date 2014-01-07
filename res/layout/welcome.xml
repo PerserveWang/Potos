@@ -11,7 +11,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_marginBottom="310dp"
-        android:textColor="#ee6801"
+        android:textColor="@color/black"
         android:text="快乐的乐乐"
         android:textSize="36sp" />
 

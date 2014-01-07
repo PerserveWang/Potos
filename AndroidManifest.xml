@@ -29,10 +29,11 @@
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-         <activity
+        <activity
             android:name="com.trends.photoalbum.activity.Main_Activity"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
         </activity>
@@ -72,7 +73,7 @@
             android:name="com.trends.photoalbum.activity.ShopSeries_Activity"
             android:theme="@android:style/Theme.Black.NoTitleBar" >
         </activity>
-          <activity
+        <activity
             android:name="com.trends.photoalbum.fragment.PictureShowItemFragment"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
         </activity>
@@ -88,7 +89,6 @@
             android:name="com.trends.photoalbum.activity.HomePageAcivity"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
         </activity>
-        
         <activity
             android:name="com.trends.photoalbum.activity.PowerByActivity"
             android:theme="@android:style/Theme.Light.NoTitleBar" >

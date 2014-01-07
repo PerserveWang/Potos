@@ -61,5 +61,7 @@
     <string name="time_error">时间有问题</string>
     <string name="gread_telphone">&#160;请输入您的电话号码~</string>
     <string name="gread_greadtext">&#160;把你对影楼的感受告诉我们吧~</string>
+    <string name="helanduo_web"><u>www.hollandermilk.com</u></string>
+    <string name="helanduo_web_url">http://www.hollandermilk.com</string>
 
 </resources>

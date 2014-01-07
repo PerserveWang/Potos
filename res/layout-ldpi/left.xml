@@ -32,10 +32,10 @@
             android:id="@+id/left_L"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@id/left_R"
             android:layout_marginLeft="3dip"
             android:layout_marginRight="3dip"
             android:layout_marginTop="3dip"
-            android:layout_below="@id/left_R"
             android:background="@color/bacgroud"
             android:orientation="horizontal" >
 
@@ -61,11 +61,11 @@
             android:id="@+id/left_L1"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@id/left_L"
             android:layout_marginLeft="3dip"
             android:layout_marginRight="3dip"
             android:layout_marginTop="3dip"
             android:background="@color/bacgroud"
-            android:layout_below="@id/left_L"
             android:orientation="horizontal" >
 
             <ImageButton
@@ -90,11 +90,11 @@
             android:id="@+id/left_L2"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@id/left_L1"
             android:layout_marginLeft="3dip"
             android:layout_marginRight="3dip"
             android:layout_marginTop="3dip"
             android:background="@color/bacgroud"
-            android:layout_below="@id/left_L1"
             android:orientation="horizontal" >
 
             <ImageButton
@@ -115,34 +115,30 @@
                 android:background="@drawable/call_slecte" />
         </LinearLayout>
 
-          <RelativeLayout
-              android:layout_width="wrap_content"
-              android:layout_height="fill_parent"
-              android:layout_below="@+id/left_L2"
-              android:layout_centerHorizontal="true"
-              android:layout_marginTop="25dp" >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/left_L2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dip" >
 
-              <TextView
-                  android:id="@+id/power"
-                  android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:layout_alignParentBottom="true"
-                  android:text="@string/power"
-                  android:textColor="@color/panker_color"
-                  android:textSize="8pt" />
+            <ImageView
+                android:id="@+id/logo_iv_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/logo" />
 
-              <TextView
-                  android:id="@+id/panker_tv"
-                  android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:layout_marginLeft="10dip"
-                  android:layout_toRightOf="@id/power"
-                  android:text="@string/panker"
-                  android:textColor="@color/about_color"
-                  android:textSize="10pt" />
-          </RelativeLayout>
-
+            <TextView
+                android:id="@+id/logo_web_tv_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/logo_iv_id"
+                android:text="@string/helanduo_web"
+                android:textColor="#009ad6"
+                android:textSize="18sp" />
+        </RelativeLayout>
     </RelativeLayout>
-  
 
 </ScrollView>

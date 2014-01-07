@@ -11,6 +11,7 @@ import android.os.Handler;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TabHost.TabSpec;
 
 import com.trends.photoalbum.msg.Constants;
@@ -41,8 +42,7 @@ public class TabHost extends TabActivity implements OnClickListener {
 		View view2 = this.getLayoutInflater().inflate(R.layout.tab_opus, null);
 		// opus_tx = (TextView) view2.findViewById(R.id.opus_tx);
 		// series_tx = (TextView) view1.findViewById(R.id.series_tx);
-		// ImageView series_img = (ImageView)
-		// view1.findViewById(R.id.series_img);
+		 ImageView series_img = (ImageView)view1.findViewById(R.id.series_img);
 		// ImageView opus_img = (ImageView) view2.findViewById(R.id.opus_img);
 		// Resources res = getResources();
 		tabHost = getTabHost();
